@@ -323,17 +323,17 @@ def generate_sample_analytics():
 
 def main():
     # Define image paths
-    logo_path = "images/logo.jpg"
+    logo_path = "Images/logo.jpg"
     team_images = {
-        "Bernardine Akorfa Gawu": "images/Bernardine.jpeg",
-        "Abigail Amissah": "images/Abigail.jpeg",
-        "Samuel Asare": "images/Samuel.jpeg",
-        "Afful Francis Gyan": "images/Francis.jpeg",
-        "Gloria Odamtten": "images/Gloria.jpeg"
+        "Bernardine Akorfa Gawu": "Images/Bernardine.jpeg",
+        "Abigail Amissah": "Images/Abigail.jpeg",
+        "Samuel Asare": "Images/Samuel.jpeg",
+        "Afful Francis Gyan": "Images/Francis.jpeg",
+        "Gloria Odamtten": "Images/Gloria.jpeg"
     }
 
     # Check if the images directory exists
-    if not os.path.exists("images"):
+    if not os.path.exists("Images"):
         st.error("The 'images' directory does not exist. Please create it and add the required images.")
         return
 
@@ -400,11 +400,11 @@ def main():
 
     # Define team members with image paths
     team_members = [
-        {"name": "Bernardine Akorfa Gawu", "id": "22253324", "role": "Data Scientist", "image": "images/Bernardine.jpeg"},
-        {"name": "Abigail Amissah", "id": "22253929", "role": "ML Engineer", "image": "images/Abigail.jpeg"},
-        {"name": "Samuel Asare", "id": "22253156", "role": "Full Stack Developer", "image": "images/Samuel.jpeg"},
-        {"name": "Afful Francis Gyan", "id": "22253332", "role": "Data Analyst", "image": "images/Francis.jpeg"},
-        {"name": "Gloria Odamtten", "id": "22252377", "role": "Project Manager", "image": "images/Gloria.jpeg"}
+        {"name": "Bernardine Akorfa Gawu", "id": "22253324", "role": "Data Scientist", "image": "Images/Bernardine.jpeg"},
+        {"name": "Abigail Amissah", "id": "22253929", "role": "ML Engineer", "image": "Images/Abigail.jpeg"},
+        {"name": "Samuel Asare", "id": "22253156", "role": "Full Stack Developer", "image": "Images/Samuel.jpeg"},
+        {"name": "Afful Francis Gyan", "id": "22253332", "role": "Data Analyst", "image": "Images/Francis.jpeg"},
+        {"name": "Gloria Odamtten", "id": "22252377", "role": "Project Manager", "image": "Images/Gloria.jpeg"}
     ]
 
     # Display cards in columns
